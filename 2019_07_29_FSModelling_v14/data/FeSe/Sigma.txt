@@ -1,0 +1,14 @@
+At polar angle 76.00 and azumithal 65.00, field 10.0.
+The *leading order in B* sigma tensor is in (mu Ohm cm)^-1:
+
+ 4.176e+01  1.385e+03  1.264e+01
+
+ 1.385e+03  4.127e+01  8.139e+00
+
+ 1.264e+01  8.139e+00  9.252e-02
+
+The resulting Hall coefficient would be:
+3.323e-01 cm^3/C
+
+Reminder that this is in lowest order of omega_c tau.
+And that diagonal is B-independent, off is proportional.

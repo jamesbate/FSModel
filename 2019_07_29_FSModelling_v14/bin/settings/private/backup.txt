@@ -1,0 +1,75 @@
+Choose Symmetry Group: BandID | Select Band
+FeSeTetragonal Band 01: EffMass | 4.05
+FeSeTetragonal Band 01: KxOffset | 0
+FeSeTetragonal Band 01: KyOffset | 0
+FeSeTetragonal Band 01: KzOffset | 0
+FeSeTetragonal Band 01: k00 | 0.10880000
+FeSeTetragonal Band 01: k02 | 0.03890000
+FeSeTetragonal Band 01: k04 | 0
+FeSeTetragonal Band 01: k10 | -0.03390000
+FeSeTetragonal Band 01: k12 | 0.00120000
+FeSeTetragonal Band 01: k14 | 0
+FeSeTetragonal Band 01: k20 | 0
+FeSeTetragonal Band 02: EffMass | -5.75000000
+FeSeTetragonal Band 02: KxOffset | 1
+FeSeTetragonal Band 02: KyOffset | 0
+FeSeTetragonal Band 02: KzOffset | 0
+FeSeTetragonal Band 02: k00 | 0.10950000
+FeSeTetragonal Band 02: k02 | 0
+FeSeTetragonal Band 02: k04 | 0.05000000
+FeSeTetragonal Band 02: k10 | -0.01300000
+FeSeTetragonal Band 02: k12 | 0
+FeSeTetragonal Band 02: k14 | 0
+FeSeTetragonal Band 02: k20 | 0
+FeSeTetragonal Band 03: EffMass | -3.20000000
+FeSeTetragonal Band 03: KxOffset | 1
+FeSeTetragonal Band 03: KyOffset | 0
+FeSeTetragonal Band 03: KzOffset | 0
+FeSeTetragonal Band 03: k00 | 0.05450000
+FeSeTetragonal Band 03: k02 | 0
+FeSeTetragonal Band 03: k04 | 0
+FeSeTetragonal Band 03: k10 | -0.00950000
+FeSeTetragonal Band 03: k12 | 0
+FeSeTetragonal Band 03: k14 | 0
+FeSeTetragonal Band 03: k20 | 0
+FeSeTetragonal: B    | 9
+FeSeTetragonal: BAzumithal | 0
+FeSeTetragonal: BPolar | 45
+FeSeTetragonal: BandID | 01
+FeSeTetragonal: Lattice1 | 3.76510000
+FeSeTetragonal: Lattice2 | 3.76510000
+FeSeTetragonal: Lattice3 | 5.51780000
+FolderName           | default
+Hexagonal: B         | 10
+Hexagonal: BAzumithal | 0
+Hexagonal: BPolar    | 0
+Hexagonal: BandID    | Select Band
+Hexagonal: Lattice1  | 3
+Hexagonal: Lattice2  | 3
+Hexagonal: Lattice3  | 5
+Symmetry             | FeSeTetragonal
+Tetragonal Band 01: EffMass | 1
+Tetragonal Band 01: KxOffset | 0
+Tetragonal Band 01: KyOffset | 0
+Tetragonal Band 01: KzOffset | 0
+Tetragonal Band 01: k00 | 0.10000000
+Tetragonal Band 01: k04 | 0
+Tetragonal Band 01: k110 | 0.05000000
+Tetragonal Band 01: k12 | 0
+Tetragonal Band 01: k16 | 0
+Tetragonal Band 02: EffMass | -1
+Tetragonal Band 02: KxOffset | 1
+Tetragonal Band 02: KyOffset | 1
+Tetragonal Band 02: KzOffset | 0
+Tetragonal Band 02: k00 | 0.02000000
+Tetragonal Band 02: k04 | 0.01000000
+Tetragonal Band 02: k110 | 0
+Tetragonal Band 02: k12 | 0
+Tetragonal Band 02: k16 | 0
+Tetragonal: B        | 10
+Tetragonal: BAzumithal | 0
+Tetragonal: BPolar   | 45
+Tetragonal: BandID   | 01
+Tetragonal: Lattice1 | 3
+Tetragonal: Lattice2 | 3
+Tetragonal: Lattice3 | 5

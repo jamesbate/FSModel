@@ -1,0 +1,16 @@
+Linear coefficient of the heat capacity
+
+This property can be found from the masses.
+This assumes the Fermi surfaces are perfectly 2D and is rough.
+Alternatively it is the density of states,
+meaning inverse velocity and Fermi surface area.
+
+2D case (mJ/mol/K^2):
+Band 1: 0.78772
+-------
+ = 0.78772
+
+General case (mJ/mol/K^2):
+Band 1: 0.78772
+-------
+ = 0.78772

@@ -1,0 +1,96 @@
+This is a list of issues:
+- First unresolved in the current version
+- Then resolved issues.
+The idea is to swallow my pride and hope this will force me or someone else to fix them.
+Please never use old versions or at least make sure to read this list.
+
+
+29/07/2019 | v1.4
+There is two classes of topology and angle combinations that do not work. 
+1) The first is when the orbit where the Fermis surface ends
+is not a point, this happens at B//z for a torus. 
+This breaks the topology initial path algorithm.
+Algorithmic problem with detection of Nodes.
+Suggestion: Move the field a few degrees off.
+2) The second is when field is in plane for a sphere, when 
+you have the poles of the parametrization exactly halfway between
+the nodes and force orbits to go exactly through them. 
+This is actually a bug in a special way.
+The expected behaviour is a crash, the observed behaviour
+is that a half-completed orbit is returned.
+If you ever try to compute the area of such an orbit
+(which happens for both sigma and frequencies)
+then it does properly crash as 'orbit is not closed'.
+Suggestion: Move the field a few degrees off.
+
+
+
+
+
+
+
+
+---------------------------------------------------
+
+
+
+
+
+
+04/07/2019 | v1.3
+Minor nuisance, it was found out that toruses cannot be covered 
+fully by running the first parametrization argument over 2pi,
+either near 0 or 90 degrees polar this will run along an orbit
+instead of over all of them. There was a bandaid fix for this
+specific case made in Geometry > CoverageSections > CoverageEndpoints,
+which recognizes the case and allows the program to run over (2pi,2pi)
+instead of (2pi,0) in (a,b) space. 
+So this is fixed, but not to my taste.
+Update 25/07/2019: Not fixed and harder than it might seem.
+Update 29/07/2019: Fixed with even more mathematical rigour xD
+
+
+03/07/2019 | v1.3 !!!
+>> Resolved 25/07/2019 for v1.4
+There is a bug right now that seems to allow the area uncertainty to become
+so low that non-extremal orbits that due to precision make a local extremum
+are allowed in. Use your brain to see which is better, I sadly have no time 
+to fix it right now with a tolerance level.
+Solution: It was found that ExtremizeEvaluateNonLinear can walk over 
+such a path that numerical precision effectively makes it walk 
+backwards. This causes a fake maximum or minimum to be flagged and
+once flagged, it will be 'optimized' but not discarded afterwards.
+This is resolved by finishing the function with a sort on distance.
+
+
+
+01/07/2019 | v1.1 & v1.2 !!!
+>> Resolved for v1.3 on 01/07/2019
+AreaImplementation has to sum area vectors from the cross product 
+and only do the norm once at the end. This has no effect in 
+'simple' cases, but can quadruple the area at high angles in 
+corrugated cilinders, where backtracking when triangulating is highly relevant.
+
+
+
+
+30/06/2019 | v1.3
+>> Resolved 03/07/2019
+- Geometry torus with direction polar=0 returns no sections at all
+- Geometry torus with direction elsewhere finds one out of two 'topology=-1' areas
+
+This is right after the topology finally works robustly for all sorts of 
+difficult shapes and various bugs with the trivial cases were solved
+one by one afterwards (no nodes, poles along direction, paths aligned with a/b).
+This seems initially as if it requires the negative 
+topology to instead reflect the difference between the starting
+and final point rounded to 2pi multiples, which changes a bunch of stuff.
+It is doable, but the Coverage functions are just now working and I am going to bed.
+(yes, it is 2 am).
+
+Fix:
+1/7 it turned out the volume was not correctly predicted when 
+using high angles. This was fixed on 2/7 and finetuned on 3/7
+and a side-effect of the fix is that Torus now also works.
+Exception is polar=0 for which there are nodal lines,
+which is now raising an error as this cannot be resolved.

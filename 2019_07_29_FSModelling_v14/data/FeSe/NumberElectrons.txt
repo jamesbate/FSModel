@@ -1,0 +1,9 @@
+Fractional filling of bands:
+Band 01: 0.05251 hole
+
+--------
+In total 0.05251 fractional filling
+Or charge density 1.313e+21 cm^-3
+
+Or Hall coefficient 4.755e-01 cm^3/C
+^assuming all have equal mobility^

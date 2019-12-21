@@ -1,0 +1,72 @@
+Choose Symmetry Group: BandID | Select Band
+FeSeTetragonal Band 01: EffMass | -1
+FeSeTetragonal Band 01: KxOffset | 0
+FeSeTetragonal Band 01: KyOffset | 0
+FeSeTetragonal Band 01: KzOffset | 0
+FeSeTetragonal Band 01: Tau | 100
+FeSeTetragonal Band 01: k00 | 0.20000000
+FeSeTetragonal Band 01: k02 | 0.05000000
+FeSeTetragonal Band 01: k04 | 0
+FeSeTetragonal Band 01: k10 | 0.01000000
+FeSeTetragonal Band 01: k12 | 0
+FeSeTetragonal Band 01: k14 | 0
+FeSeTetragonal Band 01: k20 | 0
+FeSeTetragonal: Atoms | 1
+FeSeTetragonal: AtomsPerCell | 2
+FeSeTetragonal: B    | 10
+FeSeTetragonal: BAzumithal | 65
+FeSeTetragonal: BPolar | 76
+FeSeTetragonal: BandID | 01
+FeSeTetragonal: Lattice1 | 4
+FeSeTetragonal: Lattice2 | 4
+FeSeTetragonal: Lattice3 | 5
+FeSeTetragonal: Precision | 400
+FolderName           | FeSe
+Hexagonal Band 01: EffMass | 1
+Hexagonal Band 01: KxOffset | 0
+Hexagonal Band 01: KyOffset | 0
+Hexagonal Band 01: KzOffset | 0
+Hexagonal Band 01: Tau | 100
+Hexagonal Band 01: k00 | 0.20000000
+Hexagonal Band 01: k012 | 0
+Hexagonal Band 01: k06 | 0.05000000
+Hexagonal Band 01: k13 | 0.10000000
+Hexagonal Band 01: k20 | 0
+Hexagonal: AtomsPerCell | 2
+Hexagonal: B         | 10
+Hexagonal: BAzumithal | 0
+Hexagonal: BPolar    | 60
+Hexagonal: BandID    | 01
+Hexagonal: Lattice1  | 3
+Hexagonal: Lattice2  | 3
+Hexagonal: Lattice3  | 5
+Hexagonal: Precision | 200
+Symmetry             | FeSeTetragonal
+ThetaMax             | 86
+ThetaMin             | 0
+ThetaStep            | 2
+Torus Band 01: EffMass | 1
+Torus Band 01: KxOffset | 0
+Torus Band 01: KyOffset | 0
+Torus Band 01: KzOffset | 0
+Torus Band 01: Tau   | 100
+Torus Band 01: major | 0.20000000
+Torus Band 01: minor | 0.03000000
+Torus: AtomsPerCell  | 1
+Torus: B             | 10
+Torus: BAzumithal    | 0
+Torus: BPolar        | 5
+Torus: BandID        | 01
+Torus: Lattice1      | 3
+Torus: Lattice2      | 3
+Torus: Lattice3      | 5
+Torus: Precision     | 150
+Triangular: AtomsPerCell | 1
+Triangular: B        | 10
+Triangular: BAzumithal | 0
+Triangular: BPolar   | 0
+Triangular: BandID   | Select Band
+Triangular: Lattice1 | 3
+Triangular: Lattice2 | 3
+Triangular: Lattice3 | 5
+Triangular: Precision | 150

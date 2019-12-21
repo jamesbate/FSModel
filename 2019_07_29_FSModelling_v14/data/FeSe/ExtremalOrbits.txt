@@ -1,0 +1,7 @@
+
+Extremal orbits:
+<distance to origin | freq in T | period in ps>
+
+Band 01:
+> -1.5160e+09 | 5707.85 +- 3.4e-01 |  26.826
+> 7.0842e+06 | 5515.54 +- 5.4e-01 |  26.345
