@@ -47,5 +47,4 @@ whereas the GUI-group does not know anything about the
 way the calculations are performed nor the way 
 settings are handled, just that these tasks can be called upon.
 
-Roemer Hinlopen
-19 June 2019
+This program has been developped and utilised by Roemer Hinlopen and James Bate. 
